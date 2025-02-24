@@ -1,0 +1,26 @@
+venv
+__pycache__
+
+# fastapi_app/
+# │── main.py                   # Entry point for FastAPI
+# │── config.py                 # Configuration settings (DB URL, secret keys, etc.)
+# │── database.py               # Database connection setup
+# │── models/                   # SQLAlchemy models
+# │   ├── user.py               # User model
+# │   ├── post.py               # Another model example
+# │── schemas/                  # Pydantic models (request/response)
+# │   ├── user.py               # Pydantic schema for user
+# │   ├── post.py               # Pydantic schema for post
+# │── routers/                  # API routes (divided into modules)
+# │   ├── auth.py               # Authentication (Login/Register)
+# │   ├── users.py              # User-related routes
+# │   ├── posts.py              # Another API route
+# │── services/                 # Business logic (e.g., token generation)
+# │   ├── auth_service.py       # JWT Token creation & validation
+# │── utils/                    # Utility functions (password hashing, etc.)
+# │   ├── hashing.py            # Password hashing
+# │   ├── jwt.py                # JWT helper functions
+# │── .env                      # Environment variables (DB credentials, secrets)
+# │── requirements.txt          # Dependencies
+# │── alembic/                  # Migrations (if using Alembic)
+# │── tests/                    # Test cases (optional)
